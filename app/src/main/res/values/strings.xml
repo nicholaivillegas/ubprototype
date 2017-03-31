@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UnionBank Prototype</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="array_area_unionbank">
+        <item name="item_metro_manila">METRO MANILA</item>
+        <item name="item_central_luzon">CENTRAL LUZON</item>
+        <item name="item_north_luzon">NORTH LUZON</item>
+        <item name="item_south_luzon">SOUTH LUZON</item>
+        <item name="item_metro_cebu">METRO CEBU</item>
+        <item name="item_metro_davao">METRO DAVAO</item>
+        <item name="item_visayas">VISAYAS</item>
+        <item name="item_mindanao">MINDANAO</item>
+    </string-array>
+</resources>

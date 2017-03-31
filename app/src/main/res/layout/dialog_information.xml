@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Union Bank Branch"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:drawableLeft="@drawable/ic_location_on_black_18dp"
+        android:drawablePadding="5dp"
+        android:text="Location: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_phone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/text_phone"
+        android:layout_below="@+id/text_title"
+        android:layout_marginBottom="10dp"
+        android:text=" Unit 5, 3/F, Anglo Building, #715-A Shaw Boulevard, Mandaluyong City"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_location"
+        android:drawableLeft="@drawable/ic_phone_black_18dp"
+        android:drawablePadding="5dp"
+        android:text="Phone: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_location"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/text_banking_label"
+        android:layout_toRightOf="@+id/text_banking_label"
+        android:autoLink="phone"
+        android:text="09153665683"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_banking_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_banking"
+        android:layout_alignBottom="@+id/text_banking"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@drawable/ic_access_time_black_18dp"
+        android:drawablePadding="5dp"
+        android:text="Banking Hours: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_banking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_phone"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/text_banking_label"
+        android:layout_toRightOf="@+id/text_banking_label"
+        android:text="Wednesdays to Saturdays
+12 NN TO 7 PM
+Sundays
+9 AM TO 2 PM
+Monday and Tuesday
+CLOSED"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_description_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_banking"
+        android:drawableLeft="@drawable/ic_description_black_18dp"
+        android:drawablePadding="5dp"
+        android:text="Description: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_banking"
+        android:layout_alignStart="@+id/text_banking"
+        android:layout_below="@+id/text_banking"
+        android:text="The Love Yourself Anglo is open all days of the week except Mondays and Tuesdays.  HIV test is free-of-charge. Staff are warm, friendly, and non-discriminatory"
+        android:textSize="18sp" />
+
+</RelativeLayout>
