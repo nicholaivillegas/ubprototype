@@ -70,6 +70,165 @@ public class InformationDialog extends DialogFragment {
                     "Fax: (02)820 2381");
             textBankingHours.setText("");
             textDescription.setText("");
+
+
+        } else if (getArguments().getString("title").equals("The Medical City")) {
+            textTitle.setText("The Medical City");
+            textLocation.setText("The New Medical City Hospital, MATI Bldg. B1, Ortigas, Pasig City");
+            textPhone.setText("Tel: (02)633 3863; (02)506 5061; (02)633 3862; Local: 3160; Mobile: 0917 8275826\n" +
+                    "Fax: (02)633 3862");
+            textBankingHours.setText("n/a");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Shaw Pasig")) {
+            textTitle.setText("Shaw Pasig");
+            textLocation.setText("Chipeco Bldg., Shaw Blvd. corner Meralco Ave., Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)631 3957; (02)502 2669; Local: 3179; Mobile: 0917-8275832\n" +
+                    "Fax: (02)631 3955");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm ");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Tektite")) {
+            textTitle.setText("Tektite");
+            textLocation.setText("G/F PSE Center, Ortigas Complex, Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)637-3280; (02)636-3532; (02)636-3529; Mobile: 0917-8270996\n" +
+                    "Fax: (02)636 3531");
+            textBankingHours.setText("n/a");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Ortigas Center")) {
+            textTitle.setText("Ortigas Center");
+            textLocation.setText("21 San Miguel Ave., Ortigas Center, Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)633 6443; (02)635-9028; (02)585 1013; Local: 3168; Mobile: 0917-8270556\n" +
+                    "Fax: (02)633 6445");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Renaissance Tower")) {
+            textTitle.setText("Renaissance Tower");
+            textLocation.setText("G/F Renaissance Center, Meralco Ave., Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)584-8396; (02)217-7210; Mobile: 0917-8270461\n" +
+                    "Fax: (02)584-8397");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Julia Vargas")) {
+            textTitle.setText("Julia Vargas");
+            textLocation.setText("Centerpoint Condominium, Doña Julia Vargas Ave. cor. Garnet St. Ortigas Center, Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)633 5597; (02)975 8398; Local: 3145; Mobile: 0917-8276165\n" +
+                    "Fax: (02)633 5595");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Exchange Regency")) {
+            textTitle.setText("Exchange Regency");
+            textLocation.setText("G/F, The Exchange Regency along Exchange Road cor. Meralco Avenue and Jade Drive, Ortigas Center, Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)310-5627; (02)623-9569; Mobile: 0917-827-1336\n" +
+                    "Fax: (02)310-5631");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Emerald")) {
+            textTitle.setText("Emerald");
+            textLocation.setText("G/F Wynsum Corp. Plaza, Ortigas Center, Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)633-7604; (02)585-1008; Mobile: 0917-8270552");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("ADB Avenue")) {
+            textTitle.setText("ADB Avenue");
+            textLocation.setText("Ground floor Unit 101 AIC Burgundy Empire Tower, ADB Ave., Ortigas Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)633-1097; (02)622-1031; (02)571-8394; Mobile: 0917-8275992\n" +
+                    "Fax: (02)633-1097");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Frontera Verde")) {
+            textTitle.setText("Frontera Verde");
+            textLocation.setText("G/F Transcom Bldg., Frontera Verde, E. Rodriguez Jr. Avenue., Brgy. Ugong Pasig City (ATM: On-site)");
+            textPhone.setText("Tel: (02)451-1590; (02)451-1001; (02)502-2476; Mobile: +63917-827-6172");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Las Piñas - Pamplona")) {
+            textTitle.setText("Las Piñas - Pamplona");
+            textLocation.setText("Alabang Zapote Rd. cor. Crispina Ave., Pamplona, Las Piñas City (ATM: On-site)");
+            textPhone.setText("Tel: (02)874-3696; (02)874-3698; Mobile: 0917-8270467\n" +
+                    "Fax: (02)874 8075");
+            textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Richville")) {
+            textTitle.setText("Richville");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Muntinlupa")) {
+            textTitle.setText("Muntinlupa");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Ayala Alabang (NOL)")) {
+            textTitle.setText("Ayala Alabang (NOL)");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Alabang Town Center")) {
+            textTitle.setText("Alabang Town Center");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Dasmarinas GACU")) {
+            textTitle.setText("Dasmarinas GACU");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Ayala-SSS")) {
+            textTitle.setText("Ayala-SSS");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Cebu - Insular Life")) {
+            textTitle.setText("Cebu - Insular Life");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Century City")) {
+            textTitle.setText("Century City");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Alabang Country Club")) {
+            textTitle.setText("Alabang Country Club");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+        } else if (getArguments().getString("title").equals("Luxe Residence")) {
+            textTitle.setText("Luxe Residence");
+            textLocation.setText("");
+            textPhone.setText("");
+            textBankingHours.setText("");
+            textDescription.setText("");
+
+
         } else if (getArguments().getString("title").equals("Angeles")) {
             textTitle.setText("Angeles");
             textLocation.setText("G/F, Building 1, Unit 1 & 2, Central Town Mall, 263 Fil Am Friendship Highway, Brgy Cutcut, Angeles City, Pampanga (ATM: On-site)");

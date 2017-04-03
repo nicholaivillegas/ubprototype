@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">UnionBank Prototype</string>
     <string name="title_activity_maps">Map</string>
+    <string name="action_location">Branch Near Me</string>
     <string-array name="array_area_unionbank">
+        <item name="item_blank">--SELECT REGION--</item>
         <item name="item_metro_manila">METRO MANILA</item>
         <item name="item_central_luzon">CENTRAL LUZON</item>
         <item name="item_north_luzon">NORTH LUZON</item>
@@ -10,10 +12,13 @@
         <item name="item_metro_davao">METRO DAVAO</item>
         <item name="item_visayas">VISAYAS</item>
         <item name="item_mindanao">MINDANAO</item>
+        <item name="item_business_class">BUSINESS CLASS</item>
     </string-array>
     <string-array name="array_city_unionbank">
+        <item name="item_blank">--SELECT CITY--</item>
         <item name="item_all">ALL</item>
         <item name="item_pasig">PASIG CITY</item>
         <item name="item_las_pinas">LAS PIÑAS CITY</item>
+        <item name="item_muntinlupa">MUNTINLUPA CITY</item>
     </string-array>
 </resources>
