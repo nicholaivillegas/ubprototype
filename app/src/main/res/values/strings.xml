@@ -11,4 +11,9 @@
         <item name="item_visayas">VISAYAS</item>
         <item name="item_mindanao">MINDANAO</item>
     </string-array>
+    <string-array name="array_city_unionbank">
+        <item name="item_all">ALL</item>
+        <item name="item_pasig">PASIG CITY</item>
+        <item name="item_las_pinas">LAS PIÑAS CITY</item>
+    </string-array>
 </resources>
