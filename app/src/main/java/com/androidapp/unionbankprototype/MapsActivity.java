@@ -1126,7 +1126,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         tomasMoratoMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         sucatMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         //pasig
-        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
         shawBoulevardMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         medicalCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         shawPasigMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
@@ -1145,16 +1145,16 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         muntinlupaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
 
         //business Class
-        dasmarinasGacuMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        ayalaSssMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        centuryCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        luxeResidenceMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        dasmarinasGacuMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        ayalaSssMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        centuryCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        luxeResidenceMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
     }
 
     public void setPasigMarker() {
-        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
         shawBoulevardMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         medicalCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         shawPasigMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
@@ -1173,11 +1173,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     public void setMuntinlupaMarker() {
-        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
         muntinlupaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         ayalaAlabangMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         alabangTownCenterMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
     }
 
     public void setCentralLuzonMarker() {
@@ -1218,13 +1218,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         cebuFuenteMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         cebuMaxilomMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
 
-        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
 
     }
 
     public void setMetroDavaoMarker() {
         //metro davao
-        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
         davaoMonteverdeMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         davaoQuirinoMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         davaoVictoriaPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
@@ -1241,7 +1241,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         dumagueteNegrosOrientalMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
 
         //business
-        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
 
     }
 
@@ -1253,19 +1253,19 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         butuanMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         cagayanDeOroLapasanMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
 
-        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
     }
 
     public void setBusinessClassMarker() {
-        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        dasmarinasGacuMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        ayalaSssMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        centuryCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
-        luxeResidenceMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_gold_dot));
+        unionBankPlazaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        dasmarinasGacuMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        richvilleCorporateMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        ayalaSssMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        cebuInsularMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        davaoMagsaysayMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        centuryCityMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        alabangCountryClubMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
+        luxeResidenceMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub_business));
     }
 
 }
