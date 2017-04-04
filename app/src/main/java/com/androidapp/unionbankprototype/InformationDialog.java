@@ -225,7 +225,7 @@ public class InformationDialog extends DialogFragment {
         } else if (getArguments().getString("title").equals("Alabang Country Club")) {
             textTitle.setText("Alabang Country Club");
             textLocation.setText("Alabang Country Club Lounge, Ayala Alabang Village, Alabang, Muntinlupa City");
-            textPhone.setText("n/a");
+            textPhone.setText("Tel: (02)833-9067; (02)833-9071");
             textBankingHours.setText("Tuesday to Sunday, 9:00 am - 5:00 pm");
             textDescription.setText("n/a");
 
