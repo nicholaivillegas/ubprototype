@@ -76,6 +76,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);
         buttonWaze.setOnClickListener(this);
         getSupportActionBar().setTitle(getResources().getString(R.string.app_name));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 // The next two lines tell the new client that “this” current class will handle connection stuff
@@ -91,6 +92,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .setInterval(10 * 1000)        // 10 seconds, in milliseconds
                 .setFastestInterval(1000); // 1 second, in milliseconds
 
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
     @Override

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UnionBank Prototype</string>
+    <string name="app_name">UB Prototype</string>
     <string name="title_activity_maps">Map</string>
     <string name="action_location">Branch Near Me</string>
     <string-array name="array_area_unionbank">
@@ -21,4 +21,6 @@
         <item name="item_las_pinas">LAS PIÑAS CITY</item>
         <item name="item_muntinlupa">MUNTINLUPA CITY</item>
     </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
