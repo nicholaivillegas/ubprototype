@@ -335,8 +335,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 break;
 
             //Muntinlupa
-            case "Richville":
-                bundle.putString("title", "Richville");
+            case "Richville Corporate Tower":
+                bundle.putString("title", "Richville Corporate Tower");
                 break;
             case "Muntinlupa":
                 bundle.putString("title", "Muntinlupa");
@@ -1080,9 +1080,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         viganMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
         santiagoMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
         laoagMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
+        caintaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
+
         //south luzon
         lipaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
-        caintaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
         bacoorMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
         dagupanMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
         legaspiMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_dot));
@@ -1197,13 +1198,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         viganMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         santiagoMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         laoagMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
+        caintaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
 
     }
 
     public void setSouthLuzonMarker() {
         //south luzon
         lipaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
-        caintaMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         bacoorMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         dagupanMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));
         legaspiMarker.setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_ub));

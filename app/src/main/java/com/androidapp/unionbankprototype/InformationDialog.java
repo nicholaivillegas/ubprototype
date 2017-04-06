@@ -158,8 +158,8 @@ public class InformationDialog extends DialogFragment {
             textBankingHours.setText("Monday to Friday, 9:00 am - 3:00 pm");
             textDescription.setText("n/a");
 
-        } else if (getArguments().getString("title").equals("Richville")) {
-            textTitle.setText("Richville");
+        } else if (getArguments().getString("title").equals("Richville Corporate Tower")) {
+            textTitle.setText("Richville Corporate Tower");
             textLocation.setText("Upper G/F Richville Corporate Tower, Alabang-Zapote Rd.,  Madrigal Bus. Park, Muntinlupa City (ATM: On-site)");
             textPhone.setText("Tel: (02)850-5280; (02)850-5164; (02)850-5636; Local: 3716\n" +
                     "Fax: (02)850 5636");
