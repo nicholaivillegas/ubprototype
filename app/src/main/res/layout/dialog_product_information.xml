@@ -44,7 +44,7 @@
                 android:id="@+id/text_standard_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_attach_money_black_18dp"
+                android:drawableLeft="@drawable/ic_payment_black_18dp"
                 android:drawablePadding="5dp"
                 android:text="SAMPLE FEATURE" />
 
@@ -52,7 +52,7 @@
                 android:id="@+id/text_standard_onboards"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_business_center_black_18dp"
+                android:drawableLeft="@drawable/ic_access_time_black_18dp"
                 android:drawablePadding="5dp"
                 android:text="SAMPLE ONBOARDS" />
         </LinearLayout>

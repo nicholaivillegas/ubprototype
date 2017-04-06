@@ -21,6 +21,14 @@
         <item name="item_las_pinas">LAS PIÑAS CITY</item>
         <item name="item_muntinlupa">MUNTINLUPA CITY</item>
     </string-array>
+
+    <string-array name="array_account_type">
+        <item name="item_classic">CLASSIC</item>
+        <item name="item_customized">CUSTOMIZED</item>
+        <item name="item_premier">PREMIER</item>
+        <item name="item_premier_checking">PREMIER CHECKING</item>
+    </string-array>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

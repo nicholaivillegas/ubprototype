@@ -7,9 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.Toast;
+import android.widget.Spinner;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -71,6 +74,24 @@ public class ProductFragment extends Fragment {
     @BindView(R.id.button_calculate)
     Button buttonCalculate;
     Unbinder unbinder;
+    @BindView(R.id.radio_bills_payment)
+    CheckBox radioBillsPayment;
+    @BindView(R.id.radio_check_collection)
+    CheckBox radioCheckCollection;
+    @BindView(R.id.radio_business_check_online)
+    CheckBox radioBusinessCheckOnline;
+    @BindView(R.id.radio_payroll_suite)
+    CheckBox radioPayrollSuite;
+    @BindView(R.id.radio_onehub)
+    CheckBox radioOnehub;
+    @BindView(R.id.radio_mmccm)
+    CheckBox radioMmccm;
+
+    Boolean isBillsPayment = false, isPayrollSuite = false, isOneHub = false;
+    @BindView(R.id.spinner_account_type)
+    Spinner spinnerAccountType;
+    @BindView(R.id.edit_employee_count)
+    EditText editEmployeeCount;
 
     @Nullable
     @Override
@@ -80,9 +101,53 @@ public class ProductFragment extends Fragment {
         buttonCalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "TEST", Toast.LENGTH_SHORT).show();
+                CalculateDialog calculateDialog = new CalculateDialog();
+                Bundle calculateBundle = new Bundle();
+                calculateBundle.putBoolean("bills", isBillsPayment);
+                calculateBundle.putBoolean("payroll", isPayrollSuite);
+                calculateBundle.putBoolean("onehub", isOneHub);
+                if (isPayrollSuite) {
+                    calculateBundle.putString("account", spinnerAccountType.getSelectedItem().toString());
+                    calculateBundle.putInt("count", Integer.parseInt(editEmployeeCount.getText().toString()));
+                }
+                calculateDialog.setArguments(calculateBundle);
+                calculateDialog.show(getActivity().getFragmentManager(), "Calculate Dialog");
             }
         });
+
+        radioBillsPayment.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                isBillsPayment = isChecked;
+            }
+        });
+
+        radioPayrollSuite.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    isPayrollSuite = true;
+                    editEmployeeCount.setText("100");
+                    spinnerAccountType.setVisibility(View.VISIBLE);
+                    editEmployeeCount.setVisibility(View.VISIBLE);
+                    imagePayrollSuite.setVisibility(View.GONE);
+                } else {
+                    isPayrollSuite = false;
+                    spinnerAccountType.setVisibility(View.GONE);
+                    editEmployeeCount.setVisibility(View.GONE);
+                    editEmployeeCount.setText("0");
+                    imagePayrollSuite.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        radioOnehub.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                isOneHub = isChecked;
+            }
+        });
+
         return view;
     }
 
@@ -126,7 +191,7 @@ public class ProductFragment extends Fragment {
                 bundle.putString("title", "ICTSI Community Card");
                 break;
             case R.id.image_check_writer:
-                bundle.putString("title", "Check Writer");
+                bundle.putString("title", "Checkwriter");
                 break;
             case R.id.image_epayroll:
                 bundle.putString("title", "ePayroll");
