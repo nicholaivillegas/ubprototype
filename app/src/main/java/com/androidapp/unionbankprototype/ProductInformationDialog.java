@@ -119,12 +119,12 @@ public class ProductInformationDialog extends DialogFragment {
                     "Collection\n" +
                     ">Customizable reports\n" +
                     ">Pay bills anytime, anywhere with any mobile phone with a globe sim\n" +
-                    ">Next day crediting");
+                    ">Next day crediting\n");
             textStandardPrice.setText("Disbursement\n" +
                     ">P50/Powerpay kit\n" +
                     ">P10/Credit\n" +
                     "Collection\n" +
-                    ">P20/Transaction");
+                    ">P20/Transaction\n");
             textStandardOnboards.setText("Disbursement\n" +
                     ">5-10 banking days\n" +
                     "");
@@ -132,22 +132,21 @@ public class ProductInformationDialog extends DialogFragment {
         } else if (getArguments().getString("title").equals("ICTSI Community Card")) {
             textTitle.setText("ICTSI Community Card");
             textKeyFeatures.setText(">Payments only to ICTSI\n" +
-                    ">No withdrawals, Inquiry only\n" +
-                    "");
-            textStandardPrice.setText("Free");
+                    ">No withdrawals, Inquiry only\n");
+            textStandardPrice.setText("Free\n");
             textStandardOnboards.setText("3-5 banking days");
             textProductDescription.setText("Debit Card that can only be used for ICTSI Payments");
         } else if (getArguments().getString("title").equals("Check Writer")) {
             textTitle.setText("Check Writer");
-            textKeyFeatures.setText("> Easy integration with the company's AP system\n" +
+            textKeyFeatures.setText("\n> Easy integration with the company's AP system\n" +
                     "> Nationwide printing & releasing\n" +
                     "> System-generated reports\n" +
                     "> Email notifications to company users; Online resetting of passwords");
-            textStandardPrice.setText("Managers Checks: P20M Disbursement Volume/month with 100 free checks\n" +
+            textStandardPrice.setText("\nManagers Checks: P20M Disbursement Volume/month with 100 free checks\n" +
                     "Corporate Checks: P5M CASA ADB with 100 free checks\n" +
                     "In excess of the free checks, there's a charge of P25/check (back to client) or P30/check (UnionBank releasing)\n" +
                     "*Please look at sales kit for the detailed pricing list.");
-            textStandardOnboards.setText("15 banking days");
+            textStandardOnboards.setText("\n15 banking days");
             textProductDescription.setText("Outsource check printing and releasing to UnionBank. Can be in the form of Manager's Checks or Corporate Checks");
         } else if (getArguments().getString("title").equals("ePayroll")) {
             textTitle.setText("ePayroll");
@@ -156,18 +155,18 @@ public class ProductInformationDialog extends DialogFragment {
                     ">Pre-enrolled user access and access rights\n" +
                     ">Password-protected payroll files\n" +
                     ">Generation of Payroll, Accounting, and Government Reports\n" +
-                    ">Electronic payslips");
+                    ">Electronic payslips\n");
             textStandardPrice.setText("1-500 employees - 85/emp/run (standard), 60/emp/run (floor), minimum pricing of 100 employees\n" +
                     "501-1000 employees - 65/emp/run (standard), 50/emp/run (floor)\n" +
-                    "1001 or more - 45/emp/run (standard), 35/emp/run (floor)");
+                    "1001 or more - 45/emp/run (standard), 35/emp/run (floor)\n");
             textStandardOnboards.setText("1 to 2 months, depending on the client's required setup");
-            textProductDescription.setText("An OSP-assisted payroll processing facility that computes net pay, generates payslips, and produces reports for internal use and government payments - Must be bundled with Payroll Suite");
+            textProductDescription.setText("An OSP-assisted payroll processing facility that computes net pay, generates payslips, and produces reports for internal use and government payments - Must be bundled with Payroll Suite\n");
         } else if (getArguments().getString("title").equals("Electronic Funds Transfer")) {
             textTitle.setText("Electronic Funds Transfer");
             textKeyFeatures.setText(">ONLINE FACILITY FOR CONVENIENT ACCESS ANYTIME ANYWHERE\n" +
                     ">LOCAL AND INTERNATIONAL FUND TRANSFERS THROUGH EPCS, PDDTS AND SWIFT\n" +
                     ">SEND FUNDS OF DIFFERENT CURRENCIES ONLINE VIA SWIFT\n" +
-                    ">CURRENCIES INCLUDED: USD, AUD, EUR, GBP, JPY, SGD, HKD, CAD");
+                    ">CURRENCIES INCLUDED: USD, AUD, EUR, GBP, JPY, SGD, HKD, CAD\n");
             textStandardPrice.setText("ADB - 1M\n" +
                     "Fees:\n" +
                     "EPCS - 100\n" +
@@ -175,68 +174,68 @@ public class ProductInformationDialog extends DialogFragment {
                     "SWIFT-USD, SHA - 10USD\n" +
                     "SWIFT-USD, OUR - 15USD\n" +
                     "SWIFT-THIRDS, SHA - 20USD\n" +
-                    "SWIFT-THIRDS, OUR - 30USD");
+                    "SWIFT-THIRDS, OUR - 30USD\n");
             textStandardOnboards.setText("n/a");
-            textProductDescription.setText("A single online platform for various types of fund transfer transactions");
+            textProductDescription.setText("A single online platform for various types of fund transfer transactions\n");
         } else if (getArguments().getString("title").equals("eCrediting")) {
             textTitle.setText("eCrediting");
             textKeyFeatures.setText("Online crediting facility\n" +
                     "Multiple payments to your payees\n" +
-                    "Efficient and timely");
+                    "Efficient and timely\n");
             textStandardPrice.setText("FREE with ePaycard\n" +
                     "ADB: 3M\n" +
                     "Fee: \n" +
                     "-15php for transactions in excess of 500 per month\n" +
-                    "-1.5 per credit for SMS notification");
-            textStandardOnboards.setText("20 banking days");
-            textProductDescription.setText("A single debit-multiple crediting facility that enables corporate clients of the Bank to credit multiple payments or remittances to its employees/ customers/ or partners in an efficient and timely manner. ");
+                    "-1.5 per credit for SMS notification\n");
+            textStandardOnboards.setText("20 banking days\n");
+            textProductDescription.setText("A single debit-multiple crediting facility that enables corporate clients of the Bank to credit multiple payments or remittances to its employees/ customers/ or partners in an efficient and timely manner. \n");
         } else if (getArguments().getString("title").equals("Business Check")) {
             textTitle.setText("Business Check");
             textKeyFeatures.setText(">Simplifies and automates\n" +
                     ">Saves time and manpower\n" +
-                    ">Cuts errors");
+                    ">Cuts errors\n");
             textStandardPrice.setText("Per check: 6PHP\n" +
                     "ADB (BC): 100K\n" +
-                    "ADB (BCO): 1M");
+                    "ADB (BCO): 1M\n");
             textStandardOnboards.setText("n/a");
-            textProductDescription.setText("A check writing software which allows you to streamline and simplify your check disbursement process from the comfort of your office.");
+            textProductDescription.setText("A check writing software which allows you to streamline and simplify your check disbursement process from the comfort of your office.\n");
         } else if (getArguments().getString("title").equals("Voucher Payout")) {
             textTitle.setText("Voucher Payout");
             textKeyFeatures.setText(">Online facility for convenient access anytime, anywhere\n" +
                     ">Realtime encashment\n" +
-                    ">Less costly compared to other alternatives");
+                    ">Less costly compared to other alternatives\n");
             textStandardPrice.setText("ADB (PHP): 3M\n" +
                     "Fee (PHP): 100PHP\n" +
                     "ADB (USD): 100K\n" +
-                    "Fee (USD): 3USD");
-            textStandardOnboards.setText("m/a");
-            textProductDescription.setText("A payout facility that enables clients to outsource dollar and peso disbursements via the UnionBank branches.  ");
+                    "Fee (USD): 3USD\n");
+            textStandardOnboards.setText("n/a");
+            textProductDescription.setText("A payout facility that enables clients to outsource dollar and peso disbursements via the UnionBank branches.\n");
         } else if (getArguments().getString("title").equals("UShare")) {
             textTitle.setText("UShare");
             textKeyFeatures.setText("> Real-time web-based integrated dashboard for collections \n" +
                     "> Payment Integration\n" +
-                    "> Access to non-UBP payment options (Visa, Mastercard) ");
+                    "> Access to non-UBP payment options (Visa, Mastercard\n");
             textStandardPrice.setText("Button Package - Php 300,000 ADB\n" +
                     "Templated Package - Php 500,000 ADB\n" +
                     "Customized Package - Php 1,000,000 ADB \n" +
                     "\n" +
                     "Fees: \n" +
                     "Credit Cards (Mastercard or VISA) - 5% + 0.5% tax \n" +
-                    "Dragon Pay (Local Direct Bank Debit, OTC, or Non-Traditional Banks) - Php 10 (online), Php 15 (bank-OTC), Php 20 (non-bank OTC) ");
+                    "Dragon Pay (Local Direct Bank Debit, OTC, or Non-Traditional Banks) - Php 10 (online), Php 15 (bank-OTC), Php 20 (non-bank OTC)\n");
             textStandardOnboards.setText("Button Package - 1 month\n" +
                     "Templated Package - 1-2 months\n" +
                     "Customized Package - 2-3 months ");
-            textProductDescription.setText("UShare is an innovative and end-to-end solution, which has been tailor-fitted to address the online payment collection and account information management solutions of non-profit organizations, leveraging on the power of online payment channels to reach potential international and local donors. ");
+            textProductDescription.setText("UShare is an innovative and end-to-end solution, which has been tailor-fitted to address the online payment collection and account information management solutions of non-profit organizations, leveraging on the power of online payment channels to reach potential international and local donors.\n");
         } else if (getArguments().getString("title").equals("UBiz")) {
             textTitle.setText("UBiz");
             textKeyFeatures.setText("> Real-time web-based integrated dashboard for collections \n" +
                     "> Payment Integration\n" +
-                    "> Access to non-UBP payment options (Visa, Mastercard) ");
+                    "> Access to non-UBP payment options (Visa, Mastercard) \n");
             textStandardPrice.setText("Standard - Php 1,000,000 ADB\n" +
                     "\n" +
                     "Fees: \n" +
                     "Credit Cards (Mastercard or VISA) - 5% + 0.5% tax (Rate \n" +
-                    "Dragon Pay (Local Direct Bank Debit, OTC, or Non-Traditional Banks) - Php 10 (online), Php 15 (bank-OTC), Php 20 (non-bank OTC)");
+                    "Dragon Pay (Local Direct Bank Debit, OTC, or Non-Traditional Banks) - Php 10 (online), Php 15 (bank-OTC), Php 20 (non-bank OTC)\n");
             textStandardOnboards.setText("Standard - 1-2 months ");
             textProductDescription.setText("UBiz is an online payment solution, custom-fitted for eCommerce websites that would like to sell their goods and / or services online, but do not have the secure and reliable platform for it. This service will help online retailers leverage on the power of online payment channels to reach potential customers both local and abroad. \n" +
                     "");
@@ -244,7 +243,7 @@ public class ProductInformationDialog extends DialogFragment {
             textTitle.setText("Expanded Check Collections");
             textKeyFeatures.setText("> Comprehensive Reports - Can be customized based on the requirements of the the Clients\n" +
                     "> Nationwide Collection - Facility can service nationwide\n" +
-                    "> Process Flexibility - Can customized the process of collecting based on the requirements of the Client");
+                    "> Process Flexibility - Can customized the process of collecting based on the requirements of the Client\n");
             textStandardPrice.setText("ADB:\n" +
                     "16,000,000 - 100 Trips\n" +
                     "9,000,000 - 50 Trips\n" +
@@ -252,7 +251,7 @@ public class ProductInformationDialog extends DialogFragment {
                     "Fees:\n" +
                     "Per Checks - PHP150\n" +
                     "Per OR - PHP55\n" +
-                    "Per Invoice - PHP15");
+                    "Per Invoice - PHP15\n");
             textStandardOnboards.setText("1 week* upon the completion of the following:\n" +
                     "\n" +
                     "-Process Guidelines\n" +
@@ -262,28 +261,28 @@ public class ProductInformationDialog extends DialogFragment {
                     "-ICR (If any)\n" +
                     "\n" +
                     "*Standard servicing");
-            textProductDescription.setText("Check Collections facility with an itinerary management system and consolidated reports");
+            textProductDescription.setText("Check Collections facility with an itinerary management system and consolidated reports\n");
         } else if (getArguments().getString("title").equals("Checkhouse")) {
             textTitle.setText("Checkhouse");
             textKeyFeatures.setText("> Comprehensive Collection Reports - Download multiple types of reports that is based on the preference of the client\n" +
                     "> Check Image Viewing - Checks can be viewed by the Clients once accepted for warehousing\n" +
-                    "> Decentralized Warehousing - Caters to the geographical warehousing locations of the Clients");
+                    "> Decentralized Warehousing - Caters to the geographical warehousing locations of the Clients\n");
             textStandardPrice.setText("ADB:\n" +
                     "3,000,000 - 100 Checks\n" +
                     "\n" +
                     "Fees:\n" +
                     "Per Check - PHP15\n" +
                     "Per Special Handling - PHP25\n" +
-                    "Per Rush Request - PHP100");
+                    "Per Rush Request - PHP100\n");
             textStandardOnboards.setText("15 banking days*\n" +
                     "\n" +
                     "*Standard servicing");
-            textProductDescription.setText("Bank outsourced check warehousing facility with an online system to manage and monitor PDCs efficiently");
+            textProductDescription.setText("Bank outsourced check warehousing facility with an online system to manage and monitor PDCs efficiently\n");
         } else if (getArguments().getString("title").equals("Branch Checkhouse")) {
             textTitle.setText("Branch Checkhouse");
             textKeyFeatures.setText("> Comprehensive Collection Reports - Download multiple types of reports that is based on the preference of the client\n" +
                     "> Check Image Viewing - Checks can be viewed by the Clients once accepted for warehousing\n" +
-                    "> Decentralized Warehousing - Caters to the geographical warehousing locations of the Clients");
+                    "> Decentralized Warehousing - Caters to the geographical warehousing locations of the Clients\n");
             textStandardPrice.setText("ADB:\n" +
                     "1,000,000 - 50 Checks - Client encoding\n" +
                     "2,000,000 - 50 Checks - Bank encoding\n" +
@@ -291,11 +290,11 @@ public class ProductInformationDialog extends DialogFragment {
                     "Fees:\n" +
                     "Per Check - PHP15\n" +
                     "Per Special Handling - PHP25\n" +
-                    "Per Rush Request - PHP100");
+                    "Per Rush Request - PHP100\n");
             textStandardOnboards.setText("15 banking days*\n" +
                     "\n" +
                     "*Standard servicing");
-            textProductDescription.setText("Branch check warehousing facility with an online system to manage and monitor PDCs efficiently");
+            textProductDescription.setText("Branch check warehousing facility with an online system to manage and monitor PDCs efficiently\n");
         } else if (getArguments().getString("title").equals("Electronic and Invoice Payment and Presentment (EIPP)")) {
             textTitle.setText("Electronic and Invoice Payment and Presentment (EIPP)");
             textKeyFeatures.setText("> Deductions tagging - Distributors can be tagged on a per invoice level\n" +
@@ -304,39 +303,36 @@ public class ProductInformationDialog extends DialogFragment {
                     "Payment Channel: Over-the-Counter - 3,000,000 +15/transaction\n" +
                     "Payment Channel: Expanded Check Collections with 120 free trips (1 Check, 1 OR) - 14,000,000 +165/excess\n" +
                     "\n" +
-                    "500,000 per customization");
+                    "500,000 per customization\n");
             textStandardOnboards.setText("15 banking days*\n" +
                     "\n" +
-                    "*Standard servicing");
-            textProductDescription.setText("Online invoice presentment with nationwide payment collections and comprehensive reports");
+                    "*Standard servicing\n");
+            textProductDescription.setText("Online invoice presentment with nationwide payment collections and comprehensive reports\n");
         } else if (getArguments().getString("title").equals("Cash Mobilization")) {
             textTitle.setText("Cash Mobilization");
             textKeyFeatures.setText("> Cash is secured in locked bag with 2 security guard escorts and armed driver\n" +
                     "> Nationwide collections thru 7 Cash Centers and 14 Branches\n" +
-                    "> Same day posting of cash deposits to your account");
+                    "> Same day posting of cash deposits to your account\n");
             textStandardPrice.setText("Weekday - Fee: P1,000/trip, ADB: P2MM/trip/week\n" +
-                    "Weened  - Fee:  P1,500/trip, ADB: 3MM/trip/week");
+                    "Weened  - Fee:  P1,500/trip, ADB: 3MM/trip/week\n");
             textStandardOnboards.setText("10 banking days");
-            textProductDescription.setText("A secure onsite pick-up of cash for deposit service and/or delivery of cash requirements to your office through an Armored Truck Team");
+            textProductDescription.setText("A secure onsite pick-up of cash for deposit service and/or delivery of cash requirements to your office through an Armored Truck Team\n");
         } else if (getArguments().getString("title").equals("UnionCollect")) {
             textTitle.setText("UnionCollect");
-            textKeyFeatures.setText(">Outsourced tellering and cashiering service for high transaction volume periods");
+            textKeyFeatures.setText(">Outsourced tellering and cashiering service for high transaction volume periods\n");
             textStandardPrice.setText("Weekday - Fee: P3,000/teller/day, ADB: P8MM/teller/day/week\n" +
-                    "Weened  - Fee:  P4.000/teller/dau, ADB: P10MM/teller/day/week");
+                    "Weened  - Fee:  P4.000/teller/dau, ADB: P10MM/teller/day/week\n");
             textStandardOnboards.setText("30 banking days");
-            textProductDescription.setText("Deployment of a dedicated bank personnel to corporate client’s office to accept collections directly from client’s payors.\n" +
-                    "\n" +
-                    "");
+            textProductDescription.setText("Deployment of a dedicated bank personnel to corporate client’s office to accept collections directly from client’s payors.\n");
         } else if (getArguments().getString("title").equals("Corporate Online Banking")) {
             textTitle.setText("Corporate Online Banking");
             textKeyFeatures.setText("(1) View accounts and download statements with basic references\n" +
                     "(2) Do transfers to own, other UnionBank accounts, and even peso accounts with other local Banks\n" +
                     "(3) Do bills payment to bank-accredited billers\n" +
-                    "(4) Send your payroll file for batch processing");
-            textStandardPrice.setText("Free");
+                    "(4) Send your payroll file for batch processing\n");
+            textStandardPrice.setText("Free\n");
             textStandardOnboards.setText("3-5 banking days");
-            textProductDescription.setText("Basic electronic banking service from UnionBank for Corporate or Business Clients.\n" +
-                    "");
+            textProductDescription.setText("Basic electronic banking service from UnionBank for Corporate or Business Clients.\n");
         }
     }
 

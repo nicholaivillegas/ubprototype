@@ -77,6 +77,12 @@ public class ProductFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_product, container, false);
         unbinder = ButterKnife.bind(this, view);
+        buttonCalculate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "TEST", Toast.LENGTH_SHORT).show();
+            }
+        });
         return view;
     }
 
@@ -163,9 +169,6 @@ public class ProductFragment extends Fragment {
                 break;
             case R.id.image_corporate_online_banking:
                 bundle.putString("title", "Corporate Online Banking");
-                break;
-            case R.id.button_calculate:
-                Toast.makeText(getContext(), "BUTTON CLICKED!", Toast.LENGTH_SHORT).show();
                 break;
         }
         informationDialog.setArguments(bundle);
