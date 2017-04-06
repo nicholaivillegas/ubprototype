@@ -129,15 +129,14 @@ public class CalculateDialog extends DialogFragment {
             textOnehub.setVisibility(View.VISIBLE);
             textOnehubRequirement.setText("OneHub Requirements : n/a");
             textOnehubRequirement.setVisibility(View.VISIBLE);
-            if(getArguments().getBoolean("bills") || getArguments().getBoolean("payroll"))
-            {
+            if (getArguments().getBoolean("bills") || getArguments().getBoolean("payroll")) {
                 textOnehub.setText("OneHub : Free ");
                 adb = adb + 0;
-            }
-            else
+            } else {
                 textOnehub.setText("OneHub : 1,000,000 PHP ");
+                adb = adb + 1000000;
+            }
 
-            adb = adb + 1000000;
         }
 
         double amount = Double.parseDouble(String.format("%.2f", adb));
